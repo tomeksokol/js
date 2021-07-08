@@ -68,6 +68,8 @@ console.log(numbers[3]);
 
 //FUNKCJE
 
+//operator "LUB" to ||
+
 //definicja funkcji
 function firstFN() {
   console.log("My first function!");
@@ -80,3 +82,14 @@ firstFN();
 firstFN();
 
 export { myName };
+
+//==================================
+
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+/* 1. i
+2. warunek
+3. wywolanie loop
+4. podniesienie i o 1
+*/
