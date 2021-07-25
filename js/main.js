@@ -93,3 +93,68 @@ for (let i = 0; i < 5; i++) {
 3. wywolanie loop
 4. podniesienie i o 1
 */
+
+function sayHi() {
+  console.log("Hello, this is my first function!");
+}
+sayHi();
+
+
+// zajęcia 3 
+
+// definiowanie tablicy Array
+[];
+[].lenght
+let arr1 = ["Natalia", "Joanna", "Ela"];
+arr1.length;
+arr1
+arr1[0]
+"Natalia"
+arr1[1]
+"Joanna"
+
+// zmienne array
+
+const friends = ['Mango', 'Kiwi', 'Pomelo', 'Banan'];
+friends
+Array(4) [ "Mango", "Kiwi", "Pomelo", "Banan" ]
+​
+0: "Mango"
+​
+1: "Kiwi"
+​
+2: "Pomelo"
+​
+3: "Banan"
+​
+length: 4
+friends[3]
+"Banan"
+
+//nadpisywanie zmiennej
+
+friends[0] = 'Orange';
+
+// może być array wewnątrz array
+
+let cost;
+const subscription = "premium";
+
+switch (subscription) {
+  case "free":
+    cost = 0;
+    break;
+
+  case "pro":
+    cost = 100;
+    break;
+
+  case "premium":
+    cost = 500;
+    break;
+
+  default:
+    console.log("Invalid subscription type");
+}
+
+console.log(cost); // 500
